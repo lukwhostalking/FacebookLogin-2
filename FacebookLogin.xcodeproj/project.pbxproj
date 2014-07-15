@@ -23,6 +23,14 @@
 		5669182E195BA757008D7FC3 /* FacebookLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669182D195BA757008D7FC3 /* FacebookLoginTests.m */; };
 		5669183A195BA871008D7FC3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56691838195BA871008D7FC3 /* LoginViewController.m */; };
 		5669183B195BA871008D7FC3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56691839195BA871008D7FC3 /* LoginViewController.xib */; };
+		56B25D281970E5C100D489F0 /* newsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B25D261970E5C100D489F0 /* newsFeedViewController.m */; };
+		56B25D291970E5C100D489F0 /* newsFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56B25D271970E5C100D489F0 /* newsFeedViewController.xib */; };
+		56D40460197498EA004DCEE3 /* blankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D4045E197498EA004DCEE3 /* blankViewController.m */; };
+		56D40461197498EA004DCEE3 /* blankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D4045F197498EA004DCEE3 /* blankViewController.xib */; };
+		56D404651974991C004DCEE3 /* moreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D404631974991C004DCEE3 /* moreViewController.m */; };
+		56D404661974991C004DCEE3 /* moreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D404641974991C004DCEE3 /* moreViewController.xib */; };
+		56D4046A1974B597004DCEE3 /* statusComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D404681974B597004DCEE3 /* statusComposeViewController.m */; };
+		56D4046B1974B597004DCEE3 /* statusComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D404691974B597004DCEE3 /* statusComposeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +66,18 @@
 		56691837195BA871008D7FC3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		56691838195BA871008D7FC3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		56691839195BA871008D7FC3 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		56B25D251970E5C100D489F0 /* newsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsFeedViewController.h; sourceTree = "<group>"; };
+		56B25D261970E5C100D489F0 /* newsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newsFeedViewController.m; sourceTree = "<group>"; };
+		56B25D271970E5C100D489F0 /* newsFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = newsFeedViewController.xib; sourceTree = "<group>"; };
+		56D4045D197498EA004DCEE3 /* blankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blankViewController.h; sourceTree = "<group>"; };
+		56D4045E197498EA004DCEE3 /* blankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blankViewController.m; sourceTree = "<group>"; };
+		56D4045F197498EA004DCEE3 /* blankViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = blankViewController.xib; sourceTree = "<group>"; };
+		56D404621974991C004DCEE3 /* moreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moreViewController.h; sourceTree = "<group>"; };
+		56D404631974991C004DCEE3 /* moreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = moreViewController.m; sourceTree = "<group>"; };
+		56D404641974991C004DCEE3 /* moreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = moreViewController.xib; sourceTree = "<group>"; };
+		56D404671974B597004DCEE3 /* statusComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statusComposeViewController.h; sourceTree = "<group>"; };
+		56D404681974B597004DCEE3 /* statusComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = statusComposeViewController.m; sourceTree = "<group>"; };
+		56D404691974B597004DCEE3 /* statusComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = statusComposeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +147,18 @@
 				5619DD8A1964CD42006F8A77 /* feedViewController.h */,
 				5619DD8B1964CD42006F8A77 /* feedViewController.m */,
 				5619DD8C1964CD42006F8A77 /* feedViewController.xib */,
+				56B25D251970E5C100D489F0 /* newsFeedViewController.h */,
+				56B25D261970E5C100D489F0 /* newsFeedViewController.m */,
+				56B25D271970E5C100D489F0 /* newsFeedViewController.xib */,
+				56D4045D197498EA004DCEE3 /* blankViewController.h */,
+				56D4045E197498EA004DCEE3 /* blankViewController.m */,
+				56D4045F197498EA004DCEE3 /* blankViewController.xib */,
+				56D404621974991C004DCEE3 /* moreViewController.h */,
+				56D404631974991C004DCEE3 /* moreViewController.m */,
+				56D404641974991C004DCEE3 /* moreViewController.xib */,
+				56D404671974B597004DCEE3 /* statusComposeViewController.h */,
+				56D404681974B597004DCEE3 /* statusComposeViewController.m */,
+				56D404691974B597004DCEE3 /* statusComposeViewController.xib */,
 			);
 			path = FacebookLogin;
 			sourceTree = "<group>";
@@ -235,8 +267,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56B25D291970E5C100D489F0 /* newsFeedViewController.xib in Resources */,
+				56D4046B1974B597004DCEE3 /* statusComposeViewController.xib in Resources */,
 				56691813195BA757008D7FC3 /* InfoPlist.strings in Resources */,
 				5669181B195BA757008D7FC3 /* Images.xcassets in Resources */,
+				56D404661974991C004DCEE3 /* moreViewController.xib in Resources */,
+				56D40461197498EA004DCEE3 /* blankViewController.xib in Resources */,
 				5619DD8E1964CD42006F8A77 /* feedViewController.xib in Resources */,
 				5669183B195BA871008D7FC3 /* LoginViewController.xib in Resources */,
 			);
@@ -258,6 +294,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				56691819195BA757008D7FC3 /* AppDelegate.m in Sources */,
+				56D4046A1974B597004DCEE3 /* statusComposeViewController.m in Sources */,
+				56D404651974991C004DCEE3 /* moreViewController.m in Sources */,
+				56D40460197498EA004DCEE3 /* blankViewController.m in Sources */,
+				56B25D281970E5C100D489F0 /* newsFeedViewController.m in Sources */,
 				56691815195BA757008D7FC3 /* main.m in Sources */,
 				5619DD8D1964CD42006F8A77 /* feedViewController.m in Sources */,
 				5669183A195BA871008D7FC3 /* LoginViewController.m in Sources */,
